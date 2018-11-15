@@ -129,9 +129,9 @@ $custom-hint-hover-helper-size: 12px
 
   $translateX: -50%
   @if $xDirection == -1
-  	$translateX: -100%
+    $translateX: -100%
   @elseif $xDirection == 1
-  	$translateX: 0
+    $translateX: 0
 
   &:before, .hint__content
     @include vendor('transform', translateX($translateX))
@@ -190,7 +190,7 @@ $custom-hint-hover-helper-size: 12px
       background-color: red
 
   &:hover .hint__content, &:focus .hint__content
-  	@include ice-set-margin('translateX', $transitionDirection, 1)
+    @include ice-set-margin('translateX', $transitionDirection, 1)
 
 
 
