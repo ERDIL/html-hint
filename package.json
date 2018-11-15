@@ -63,6 +63,6 @@
     "webpack": "^1.12.13"
   },
   "dependencies": {
-    "hint.css": "^2.5.0"
+    "hint.css": "2.2.1"
   }
 }
